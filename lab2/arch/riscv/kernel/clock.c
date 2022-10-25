@@ -14,7 +14,7 @@ unsigned long get_cycles() {
         :
         : "memory"
     );
-
+    return time;
 }
 
 void clock_set_next_event() {
